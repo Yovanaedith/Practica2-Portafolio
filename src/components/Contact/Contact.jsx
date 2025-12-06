@@ -4,10 +4,9 @@ const Contact = () => {
   const contactInfo = [
     { label: 'Email', value: 'yovanarasmo819@gmail.com', link: 'mailto:yovanarasmo819@gmail.com' },
     { label: 'Celular', value: '77538646', link: 'tel:+59177538646' },
-    { label: 'LinkedIn', value: 'Perfil Profesional', link: 'https://linkedin.com/in/yovana-ramos' }, // URL Ficticia
+    { label: 'LinkedIn', value: 'Perfil Profesional', link: 'https://linkedin.com/in/yovana-ramos' }, 
   ];
 
-  // La funcionalidad del formulario queda pendiente para un próximo sprint.
   const handleSubmit = (e) => {
     e.preventDefault();
     alert('Funcionalidad de formulario pendiente. ¡Contáctame por email o celular!');
