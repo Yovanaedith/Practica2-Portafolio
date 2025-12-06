@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+  --color-dark-bg: #10061e;
+  --color-primary-dark: #1e0c38;
+  --color-light-text: #f0f0ff;
+  --color-accent-neon: #a020f0;
+  --color-secondary-neon: #9c27b0;
+  --color-shadow-neon: rgba(160, 32, 240, 0.4);
+  --font-family-main: 'Poppins', sans-serif;
+  --border-radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family-main);
+  background-color: var(--color-dark-bg);
+  color: var(--color-light-text);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--color-accent-neon);
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-light-text);
+  text-shadow: 0 0 5px var(--color-accent-neon);
+}
+
+h1, h2, h3 {
+  margin-bottom: 0.8em;
+  color: var(--color-light-text);
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px var(--color-shadow-neon);
+}
+
+section {
+  padding: 6rem 10%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid var(--color-primary-dark);
+}
+
+.cta-button, button[type="submit"] {
+  background-color: var(--color-accent-neon);
+  color: var(--color-dark-bg);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover, button[type="submit"]:hover {
+  background-color: var(--color-secondary-neon);
+  box-shadow: 0 0 15px var(--color-shadow-neon);
+  color: var(--color-light-text);
+}
