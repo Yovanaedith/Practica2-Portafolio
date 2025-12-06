@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="hero-section">
       <div className="hero-content">
-        <h1>Hola, soy **Yovana Edith Ramos Orcko**</h1>
+        <h1>Hola, soy * Yovana Edith Ramos Orcko *</h1>
         <p className="subtitle">
           Ingeniera de Sistemas, enfocada en el desarrollo web y la metodología ágil (Scrum).
         </p>
