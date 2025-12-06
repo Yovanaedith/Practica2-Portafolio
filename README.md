@@ -1,16 +1,68 @@
-# React + Vite
+# 🌟 Portafolio Web Personal - Yovana Edith Ramos Orcko
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el portafolio personal de **Yovana Edith Ramos Orcko**, una profesional en Ingeniería de Sistemas, desarrollado para mostrar sus habilidades, experiencia práctica y proyectos destacados. El proyecto fue desarrollado siguiendo la metodología **Scrum** con un sprint de 14 días.
 
-Currently, two official plugins are available:
+## 🚀 Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Diseño Responsive:** Totalmente adaptable a dispositivos móviles y de escritorio.
+- **Componentización con React:** Estructura modular y reutilizable.
+- **Metodología Ágil (Scrum):** Desarrollado y documentado siguiendo un Sprint de 14 días.
+- **Despliegue Continuo:** Publicado en GitHub Pages.
 
-## React Compiler
+## 🛠️ Tecnologías Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Categoría                | Herramientas      |
+| :----------------------- | :---------------- |
+| **Frontend**             | React (Vite)      |
+| **Lenguaje**             | JavaScript (ES6+) |
+| **Estilos**              | CSS3              |
+| **Control de Versiones** | Git & GitHub      |
 
-## Expanding the ESLint configuration
+## ⚙️ Instrucciones de Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para clonar y ejecutar este proyecto en tu entorno local:
+
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone [https://github.com/Yovanaedith/Practica2-Portafolio.git](https://github.com/Yovanaedith/Practica2-Portafolio.git)
+    cd Practica2-Portafolio
+    ```
+2.  **Instalar dependencias:**
+    ```bash
+    npm install
+    ```
+3.  **Ejecutar el proyecto:**
+    ```bash
+    npm run dev
+    ```
+    ## _El portafolio estará disponible en `https://yovanaedith.github.io/Practica2-Portafolio/_
+
+## 💻 Detalles Técnicos y Metodológicos
+
+### 🌳 Estructura del Proyecto
+
+El proyecto sigue una arquitectura basada en componentes modulares de React.
+
+mi_portafolio/
+├── src/
+│ ├── assets/ # Imágenes y recursos estáticos
+│ ├── components/ # Componentes reutilizables por sección (Header, Hero, Projects)
+│ ├── data/ # Datos estáticos (projectsData.js)
+│ └── App.jsx # Componente principal
+├── .gitignore  
+└── package.json
+
+---
+
+## 📚 Documentación Scrum
+
+Toda la planificación, el Product Backlog, el Sprint Goal, la Descomposición de Tareas (1.4) y la Documentación Final (2.11 - Sprint Review/Retrospective)
+
+---
+
+## 🙋‍♀️ Información del Autor
+
+- **Nombre:** Yovana Edith Ramos Orcko
+- **Carrera:** Ingeniería de Sistemas
+- **Contacto:** yovanarasmo819@gmail.com
+- **Repositorio:** `https://github.com/Yovanaedith/Practica2-Portafolio`
